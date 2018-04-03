@@ -15,6 +15,7 @@ TagManager:
   - shrink
   - slowball
   - fastball
+  - bottomborder
   layers:
   - Default
   - TransparentFX

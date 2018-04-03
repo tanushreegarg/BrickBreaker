@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 176253}
   - component: {fileID: 176252}
   - component: {fileID: 176255}
+  - component: {fileID: 176256}
   - component: {fileID: 176254}
   m_Layer: 0
   m_Name: brick (72)
@@ -238,6 +239,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &176256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 176251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &29987954
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,8 +282,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 29987954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 615151766}
   - {fileID: 1586612327}
@@ -296,6 +318,7 @@ GameObject:
   - component: {fileID: 44438442}
   - component: {fileID: 44438441}
   - component: {fileID: 44438444}
+  - component: {fileID: 44438445}
   - component: {fileID: 44438443}
   m_Layer: 0
   m_Name: brick (30)
@@ -411,6 +434,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &44438445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 44438440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &54379477
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +465,7 @@ GameObject:
   - component: {fileID: 54379479}
   - component: {fileID: 54379478}
   - component: {fileID: 54379480}
+  - component: {fileID: 54379481}
   m_Layer: 0
   m_Name: pink4
   m_TagString: pink
@@ -510,6 +555,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &54379481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 54379477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &78092213
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +586,7 @@ GameObject:
   - component: {fileID: 78092215}
   - component: {fileID: 78092214}
   - component: {fileID: 78092216}
+  - component: {fileID: 78092217}
   m_Layer: 0
   m_Name: pink9
   m_TagString: pink
@@ -609,6 +676,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &78092217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 78092213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &99180894
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +707,7 @@ GameObject:
   - component: {fileID: 99180896}
   - component: {fileID: 99180895}
   - component: {fileID: 99180897}
+  - component: {fileID: 99180898}
   m_Layer: 0
   m_Name: pink13
   m_TagString: pink
@@ -708,6 +797,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &99180898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99180894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &161028640
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +828,7 @@ GameObject:
   - component: {fileID: 161028642}
   - component: {fileID: 161028641}
   - component: {fileID: 161028643}
+  - component: {fileID: 161028644}
   m_Layer: 0
   m_Name: pink3
   m_TagString: pink
@@ -807,6 +918,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &161028644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161028640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &163848405
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,8 +961,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163848405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 1151092294}
   - {fileID: 530088335}
@@ -857,6 +989,7 @@ GameObject:
   - component: {fileID: 179024531}
   - component: {fileID: 179024530}
   - component: {fileID: 179024532}
+  - component: {fileID: 179024533}
   m_Layer: 0
   m_Name: brick (27)
   m_TagString: yellow
@@ -946,6 +1079,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &179024533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 179024529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &227337887
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +1110,7 @@ GameObject:
   - component: {fileID: 227337889}
   - component: {fileID: 227337888}
   - component: {fileID: 227337890}
+  - component: {fileID: 227337891}
   m_Layer: 0
   m_Name: brick (23)
   m_TagString: sblue
@@ -1045,6 +1200,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &227337891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227337887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &252397660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1231,7 @@ GameObject:
   - component: {fileID: 252397662}
   - component: {fileID: 252397661}
   - component: {fileID: 252397663}
+  - component: {fileID: 252397664}
   m_Layer: 0
   m_Name: brick (35)
   m_TagString: lblue
@@ -1144,6 +1321,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &252397664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252397660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &324028311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,6 +1352,7 @@ GameObject:
   - component: {fileID: 324028313}
   - component: {fileID: 324028312}
   - component: {fileID: 324028314}
+  - component: {fileID: 324028315}
   m_Layer: 0
   m_Name: pink7
   m_TagString: pink
@@ -1243,6 +1442,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &324028315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 324028311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &343854663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,6 +1473,7 @@ GameObject:
   - component: {fileID: 343854665}
   - component: {fileID: 343854664}
   - component: {fileID: 343854667}
+  - component: {fileID: 343854668}
   - component: {fileID: 343854666}
   m_Layer: 0
   m_Name: brick (116)
@@ -1368,6 +1589,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &343854668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343854663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &352825895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,6 +1620,7 @@ GameObject:
   - component: {fileID: 352825897}
   - component: {fileID: 352825896}
   - component: {fileID: 352825899}
+  - component: {fileID: 352825900}
   - component: {fileID: 352825898}
   m_Layer: 0
   m_Name: brick (109)
@@ -1493,6 +1736,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &352825900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352825895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &355514450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1767,7 @@ GameObject:
   - component: {fileID: 355514452}
   - component: {fileID: 355514451}
   - component: {fileID: 355514453}
+  - component: {fileID: 355514454}
   m_Layer: 0
   m_Name: Dblue8
   m_TagString: dblue
@@ -1592,6 +1857,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &355514454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355514450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &357218350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1888,7 @@ GameObject:
   - component: {fileID: 357218352}
   - component: {fileID: 357218351}
   - component: {fileID: 357218354}
+  - component: {fileID: 357218355}
   - component: {fileID: 357218353}
   m_Layer: 0
   m_Name: brick (75)
@@ -1717,6 +2004,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &357218355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357218350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &361303004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +2035,7 @@ GameObject:
   - component: {fileID: 361303006}
   - component: {fileID: 361303005}
   - component: {fileID: 361303007}
+  - component: {fileID: 361303008}
   m_Layer: 0
   m_Name: brick (136)
   m_TagString: orange
@@ -1816,6 +2125,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &361303008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 361303004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &362334185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,8 +2194,8 @@ Camera:
   m_GameObject: {fileID: 362334185}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1876,7 +2206,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 31.365145
+  orthographic size: 25.59509
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1899,7 +2229,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 362334185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 19.199999, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1915,6 +2245,7 @@ GameObject:
   - component: {fileID: 364432790}
   - component: {fileID: 364432789}
   - component: {fileID: 364432791}
+  - component: {fileID: 364432792}
   m_Layer: 0
   m_Name: brick (56)
   m_TagString: orange
@@ -2004,6 +2335,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &364432792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364432788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &364533547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,6 +2366,7 @@ GameObject:
   - component: {fileID: 364533549}
   - component: {fileID: 364533548}
   - component: {fileID: 364533551}
+  - component: {fileID: 364533552}
   - component: {fileID: 364533550}
   m_Layer: 0
   m_Name: brick (110)
@@ -2129,6 +2482,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &364533552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364533547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &492817479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,6 +2513,7 @@ GameObject:
   - component: {fileID: 492817481}
   - component: {fileID: 492817480}
   - component: {fileID: 492817482}
+  - component: {fileID: 492817483}
   m_Layer: 0
   m_Name: brick (50)
   m_TagString: lblue
@@ -2228,6 +2603,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &492817483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 492817479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &530088333
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2634,7 @@ GameObject:
   - component: {fileID: 530088335}
   - component: {fileID: 530088334}
   - component: {fileID: 530088336}
+  - component: {fileID: 530088337}
   m_Layer: 0
   m_Name: brick (12)
   m_TagString: yellow
@@ -2327,6 +2724,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &530088337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530088333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &536274460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,6 +2755,7 @@ GameObject:
   - component: {fileID: 536274462}
   - component: {fileID: 536274461}
   - component: {fileID: 536274463}
+  - component: {fileID: 536274464}
   m_Layer: 0
   m_Name: Dblue7
   m_TagString: dblue
@@ -2426,6 +2845,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &536274464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536274460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &542907045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2876,7 @@ GameObject:
   - component: {fileID: 542907047}
   - component: {fileID: 542907046}
   - component: {fileID: 542907048}
+  - component: {fileID: 542907049}
   m_Layer: 0
   m_Name: brick (8)
   m_TagString: sblue
@@ -2525,6 +2966,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &542907049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 542907045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &601440034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,6 +2997,7 @@ GameObject:
   - component: {fileID: 601440036}
   - component: {fileID: 601440035}
   - component: {fileID: 601440037}
+  - component: {fileID: 601440038}
   m_Layer: 0
   m_Name: brick (22)
   m_TagString: yellow
@@ -2624,6 +3087,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &601440038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601440034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &609053603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,6 +3118,7 @@ GameObject:
   - component: {fileID: 609053605}
   - component: {fileID: 609053604}
   - component: {fileID: 609053606}
+  - component: {fileID: 609053607}
   m_Layer: 0
   m_Name: pink5
   m_TagString: pink
@@ -2723,6 +3208,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &609053607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 609053603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &615151764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,6 +3239,7 @@ GameObject:
   - component: {fileID: 615151766}
   - component: {fileID: 615151765}
   - component: {fileID: 615151767}
+  - component: {fileID: 615151768}
   m_Layer: 0
   m_Name: brick (5)
   m_TagString: orange
@@ -2822,6 +3329,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &615151768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615151764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &617996133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +3360,7 @@ GameObject:
   - component: {fileID: 617996135}
   - component: {fileID: 617996134}
   - component: {fileID: 617996137}
+  - component: {fileID: 617996138}
   - component: {fileID: 617996136}
   m_Layer: 0
   m_Name: brick (20)
@@ -2947,6 +3476,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &617996138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617996133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &635590967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +3507,7 @@ GameObject:
   - component: {fileID: 635590969}
   - component: {fileID: 635590968}
   - component: {fileID: 635590971}
+  - component: {fileID: 635590972}
   - component: {fileID: 635590970}
   m_Layer: 0
   m_Name: brick (45)
@@ -3072,6 +3623,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &635590972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 635590967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &676639516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,6 +3654,7 @@ GameObject:
   - component: {fileID: 676639518}
   - component: {fileID: 676639517}
   - component: {fileID: 676639519}
+  - component: {fileID: 676639520}
   m_Layer: 0
   m_Name: pink
   m_TagString: pink
@@ -3171,6 +3744,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &676639520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676639516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &684838919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,6 +3775,7 @@ GameObject:
   - component: {fileID: 684838921}
   - component: {fileID: 684838920}
   - component: {fileID: 684838922}
+  - component: {fileID: 684838923}
   m_Layer: 0
   m_Name: brick (39)
   m_TagString: yellow
@@ -3270,6 +3865,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &684838923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684838919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &704439436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3280,6 +3896,7 @@ GameObject:
   - component: {fileID: 704439438}
   - component: {fileID: 704439437}
   - component: {fileID: 704439440}
+  - component: {fileID: 704439441}
   - component: {fileID: 704439439}
   m_Layer: 0
   m_Name: brick (36)
@@ -3395,6 +4012,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &704439441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 704439436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &705710359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,6 +4043,7 @@ GameObject:
   - component: {fileID: 705710361}
   - component: {fileID: 705710360}
   - component: {fileID: 705710362}
+  - component: {fileID: 705710363}
   m_Layer: 0
   m_Name: brick (65)
   m_TagString: lblue
@@ -3494,6 +4133,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &705710363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 705710359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &722558804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3504,6 +4164,7 @@ GameObject:
   - component: {fileID: 722558806}
   - component: {fileID: 722558805}
   - component: {fileID: 722558807}
+  - component: {fileID: 722558808}
   m_Layer: 0
   m_Name: brick (10)
   m_TagString: sblue
@@ -3593,6 +4254,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &722558808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 722558804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &780995293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3603,6 +4285,7 @@ GameObject:
   - component: {fileID: 780995295}
   - component: {fileID: 780995294}
   - component: {fileID: 780995296}
+  - component: {fileID: 780995297}
   m_Layer: 0
   m_Name: brick (117)
   m_TagString: orange
@@ -3692,6 +4375,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &780995297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780995293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &810625397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3702,6 +4406,7 @@ GameObject:
   - component: {fileID: 810625399}
   - component: {fileID: 810625398}
   - component: {fileID: 810625401}
+  - component: {fileID: 810625402}
   - component: {fileID: 810625400}
   m_Layer: 0
   m_Name: brick (168)
@@ -3817,6 +4522,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &810625402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 810625397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &811494448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3827,6 +4553,7 @@ GameObject:
   - component: {fileID: 811494450}
   - component: {fileID: 811494449}
   - component: {fileID: 811494452}
+  - component: {fileID: 811494453}
   - component: {fileID: 811494451}
   m_Layer: 0
   m_Name: brick (60)
@@ -3942,6 +4669,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &811494453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 811494448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &835292262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,6 +4700,7 @@ GameObject:
   - component: {fileID: 835292264}
   - component: {fileID: 835292263}
   - component: {fileID: 835292265}
+  - component: {fileID: 835292266}
   m_Layer: 0
   m_Name: Dblue6
   m_TagString: dblue
@@ -4041,6 +4790,69 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &835292266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 835292262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
+--- !u!1001 &836806425
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.3448787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.352794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.1796875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490873897046700, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: df922897e2c80b94a80c2963171ea97f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &840534650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4051,6 +4863,7 @@ GameObject:
   - component: {fileID: 840534652}
   - component: {fileID: 840534651}
   - component: {fileID: 840534654}
+  - component: {fileID: 840534655}
   - component: {fileID: 840534653}
   m_Layer: 0
   m_Name: brick (151)
@@ -4166,6 +4979,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &840534655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840534650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &842571475
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,6 +5010,7 @@ GameObject:
   - component: {fileID: 842571477}
   - component: {fileID: 842571476}
   - component: {fileID: 842571478}
+  - component: {fileID: 842571479}
   m_Layer: 0
   m_Name: brick (135)
   m_TagString: orange
@@ -4265,6 +5100,139 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &842571479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 842571475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
+--- !u!1001 &847534253
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224146804275392320, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d54bc7c785040ee4dbf089f791ea6e1f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &847534254 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114147362855799432, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+    type: 2}
+  m_PrefabInternal: {fileID: 847534253}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &847534255 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114999719105807266, guid: d54bc7c785040ee4dbf089f791ea6e1f,
+    type: 2}
+  m_PrefabInternal: {fileID: 847534253}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &856689065
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,6 +5243,7 @@ GameObject:
   - component: {fileID: 856689067}
   - component: {fileID: 856689066}
   - component: {fileID: 856689068}
+  - component: {fileID: 856689069}
   m_Layer: 0
   m_Name: pink6
   m_TagString: pink
@@ -4364,6 +5333,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &856689069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 856689065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &861898416
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,6 +5364,7 @@ GameObject:
   - component: {fileID: 861898418}
   - component: {fileID: 861898417}
   - component: {fileID: 861898420}
+  - component: {fileID: 861898421}
   - component: {fileID: 861898419}
   m_Layer: 0
   m_Name: brick (14)
@@ -4489,6 +5480,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &861898421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 861898416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &885262687
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,6 +5511,7 @@ GameObject:
   - component: {fileID: 885262689}
   - component: {fileID: 885262688}
   - component: {fileID: 885262691}
+  - component: {fileID: 885262692}
   - component: {fileID: 885262690}
   m_Layer: 0
   m_Name: brick (133)
@@ -4614,6 +5627,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &885262692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885262687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &887302960
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,6 +5658,7 @@ GameObject:
   - component: {fileID: 887302962}
   - component: {fileID: 887302961}
   - component: {fileID: 887302963}
+  - component: {fileID: 887302964}
   m_Layer: 0
   m_Name: brick (101)
   m_TagString: orange
@@ -4713,6 +5748,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &887302964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 887302960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &900842294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4723,6 +5779,7 @@ GameObject:
   - component: {fileID: 900842296}
   - component: {fileID: 900842295}
   - component: {fileID: 900842297}
+  - component: {fileID: 900842298}
   m_Layer: 0
   m_Name: brick (122)
   m_TagString: yellow
@@ -4812,6 +5869,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &900842298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900842294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &940065937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +5900,7 @@ GameObject:
   - component: {fileID: 940065939}
   - component: {fileID: 940065938}
   - component: {fileID: 940065940}
+  - component: {fileID: 940065941}
   m_Layer: 0
   m_Name: brick (25)
   m_TagString: sblue
@@ -4911,6 +5990,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &940065941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940065937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &943253840
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,6 +6021,7 @@ GameObject:
   - component: {fileID: 943253842}
   - component: {fileID: 943253841}
   - component: {fileID: 943253843}
+  - component: {fileID: 943253844}
   m_Layer: 0
   m_Name: brick (104)
   m_TagString: sblue
@@ -5010,6 +6111,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &943253844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943253840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &944672760
 GameObject:
   m_ObjectHideFlags: 0
@@ -5020,6 +6142,7 @@ GameObject:
   - component: {fileID: 944672762}
   - component: {fileID: 944672761}
   - component: {fileID: 944672763}
+  - component: {fileID: 944672764}
   m_Layer: 0
   m_Name: brick (54)
   m_TagString: orange
@@ -5109,6 +6232,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &944672764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 944672760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &950192959
 GameObject:
   m_ObjectHideFlags: 0
@@ -5119,6 +6263,7 @@ GameObject:
   - component: {fileID: 950192961}
   - component: {fileID: 950192960}
   - component: {fileID: 950192962}
+  - component: {fileID: 950192963}
   m_Layer: 0
   m_Name: brick (26)
   m_TagString: sblue
@@ -5208,6 +6353,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &950192963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950192959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &977912437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5218,6 +6384,7 @@ GameObject:
   - component: {fileID: 977912439}
   - component: {fileID: 977912438}
   - component: {fileID: 977912441}
+  - component: {fileID: 977912442}
   - component: {fileID: 977912440}
   m_Layer: 0
   m_Name: brick (170)
@@ -5333,6 +6500,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &977912442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977912437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &978179988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5343,6 +6531,7 @@ GameObject:
   - component: {fileID: 978179990}
   - component: {fileID: 978179989}
   - component: {fileID: 978179991}
+  - component: {fileID: 978179992}
   m_Layer: 0
   m_Name: brick (107)
   m_TagString: yellow
@@ -5432,6 +6621,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &978179992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978179988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1010644403
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,6 +6652,7 @@ GameObject:
   - component: {fileID: 1010644405}
   - component: {fileID: 1010644404}
   - component: {fileID: 1010644407}
+  - component: {fileID: 1010644408}
   - component: {fileID: 1010644406}
   m_Layer: 0
   m_Name: brick (73)
@@ -5557,6 +6768,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1010644408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1010644403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1037357245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,6 +6799,7 @@ GameObject:
   - component: {fileID: 1037357247}
   - component: {fileID: 1037357246}
   - component: {fileID: 1037357248}
+  - component: {fileID: 1037357249}
   m_Layer: 0
   m_Name: brick (160)
   m_TagString: lblue
@@ -5656,6 +6889,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1037357249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1037357245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1053250662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,6 +6920,7 @@ GameObject:
   - component: {fileID: 1053250664}
   - component: {fileID: 1053250663}
   - component: {fileID: 1053250665}
+  - component: {fileID: 1053250666}
   m_Layer: 0
   m_Name: pink8
   m_TagString: pink
@@ -5755,6 +7010,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1053250666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053250662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1057269062
 GameObject:
   m_ObjectHideFlags: 0
@@ -5765,6 +7041,7 @@ GameObject:
   - component: {fileID: 1057269064}
   - component: {fileID: 1057269063}
   - component: {fileID: 1057269065}
+  - component: {fileID: 1057269066}
   m_Layer: 0
   m_Name: Dblue
   m_TagString: dblue
@@ -5854,6 +7131,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1057269066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1057269062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1086972829
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,6 +7162,7 @@ GameObject:
   - component: {fileID: 1086972831}
   - component: {fileID: 1086972830}
   - component: {fileID: 1086972832}
+  - component: {fileID: 1086972833}
   m_Layer: 0
   m_Name: brick (71)
   m_TagString: red
@@ -5953,6 +7252,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1086972833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086972829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1097273179
 GameObject:
   m_ObjectHideFlags: 0
@@ -5963,6 +7283,7 @@ GameObject:
   - component: {fileID: 1097273181}
   - component: {fileID: 1097273180}
   - component: {fileID: 1097273182}
+  - component: {fileID: 1097273183}
   m_Layer: 0
   m_Name: brick (134)
   m_TagString: orange
@@ -6052,6 +7373,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1097273183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097273179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1118825794
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,6 +7404,7 @@ GameObject:
   - component: {fileID: 1118825796}
   - component: {fileID: 1118825795}
   - component: {fileID: 1118825797}
+  - component: {fileID: 1118825798}
   m_Layer: 0
   m_Name: brick (123)
   m_TagString: orange
@@ -6151,6 +7494,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1118825798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118825794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1147456845
 GameObject:
   m_ObjectHideFlags: 0
@@ -6161,6 +7525,7 @@ GameObject:
   - component: {fileID: 1147456847}
   - component: {fileID: 1147456846}
   - component: {fileID: 1147456848}
+  - component: {fileID: 1147456849}
   m_Layer: 0
   m_Name: brick (28)
   m_TagString: orange
@@ -6250,6 +7615,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1147456849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147456845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1151092292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6260,6 +7646,7 @@ GameObject:
   - component: {fileID: 1151092294}
   - component: {fileID: 1151092293}
   - component: {fileID: 1151092295}
+  - component: {fileID: 1151092296}
   m_Layer: 0
   m_Name: brick (6)
   m_TagString: yellow
@@ -6349,6 +7736,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1151092296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1151092292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1153552977
 GameObject:
   m_ObjectHideFlags: 0
@@ -6359,6 +7767,7 @@ GameObject:
   - component: {fileID: 1153552979}
   - component: {fileID: 1153552978}
   - component: {fileID: 1153552981}
+  - component: {fileID: 1153552982}
   - component: {fileID: 1153552980}
   m_Layer: 0
   m_Name: brick (155)
@@ -6474,6 +7883,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1153552982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153552977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1155747739
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,8 +7926,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1155747739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 1317502336}
   - {fileID: 1854908492}
@@ -6520,6 +7950,7 @@ GameObject:
   - component: {fileID: 1160463676}
   - component: {fileID: 1160463675}
   - component: {fileID: 1160463678}
+  - component: {fileID: 1160463679}
   - component: {fileID: 1160463677}
   m_Layer: 0
   m_Name: brick (90)
@@ -6635,6 +8066,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1160463679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160463674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1186759736
 GameObject:
   m_ObjectHideFlags: 0
@@ -6645,6 +8097,7 @@ GameObject:
   - component: {fileID: 1186759738}
   - component: {fileID: 1186759737}
   - component: {fileID: 1186759740}
+  - component: {fileID: 1186759741}
   - component: {fileID: 1186759739}
   m_Layer: 0
   m_Name: brick (44)
@@ -6760,6 +8213,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1186759741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1186759736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1210920888
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,8 +8256,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1210920888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.6, y: 37.35514, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.65, y: 15.135998, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 252397662}
   - {fileID: 492817481}
@@ -6806,6 +8280,7 @@ GameObject:
   - component: {fileID: 1232791951}
   - component: {fileID: 1232791950}
   - component: {fileID: 1232791953}
+  - component: {fileID: 1232791954}
   - component: {fileID: 1232791952}
   m_Layer: 0
   m_Name: brick (167)
@@ -6921,6 +8396,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1232791954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232791949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1273902741
 GameObject:
   m_ObjectHideFlags: 0
@@ -6931,6 +8427,7 @@ GameObject:
   - component: {fileID: 1273902743}
   - component: {fileID: 1273902742}
   - component: {fileID: 1273902745}
+  - component: {fileID: 1273902746}
   - component: {fileID: 1273902744}
   m_Layer: 0
   m_Name: brick (100)
@@ -7046,6 +8543,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1273902746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273902741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1274485620
 GameObject:
   m_ObjectHideFlags: 0
@@ -7056,6 +8574,7 @@ GameObject:
   - component: {fileID: 1274485622}
   - component: {fileID: 1274485621}
   - component: {fileID: 1274485623}
+  - component: {fileID: 1274485624}
   m_Layer: 0
   m_Name: brick (138)
   m_TagString: orange
@@ -7145,6 +8664,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1274485624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1274485620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1278232102
 GameObject:
   m_ObjectHideFlags: 0
@@ -7155,6 +8695,7 @@ GameObject:
   - component: {fileID: 1278232104}
   - component: {fileID: 1278232103}
   - component: {fileID: 1278232105}
+  - component: {fileID: 1278232106}
   m_Layer: 0
   m_Name: pink1
   m_TagString: pink
@@ -7244,6 +8785,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1278232106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278232102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1286717316
 GameObject:
   m_ObjectHideFlags: 0
@@ -7254,6 +8816,7 @@ GameObject:
   - component: {fileID: 1286717318}
   - component: {fileID: 1286717317}
   - component: {fileID: 1286717319}
+  - component: {fileID: 1286717320}
   m_Layer: 0
   m_Name: Dblue5
   m_TagString: dblue
@@ -7343,6 +8906,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1286717320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1286717316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1290843853
 GameObject:
   m_ObjectHideFlags: 0
@@ -7353,6 +8937,7 @@ GameObject:
   - component: {fileID: 1290843855}
   - component: {fileID: 1290843854}
   - component: {fileID: 1290843856}
+  - component: {fileID: 1290843857}
   m_Layer: 0
   m_Name: brick (58)
   m_TagString: orange
@@ -7442,6 +9027,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1290843857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1290843853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1317502334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,6 +9058,7 @@ GameObject:
   - component: {fileID: 1317502336}
   - component: {fileID: 1317502335}
   - component: {fileID: 1317502337}
+  - component: {fileID: 1317502338}
   m_Layer: 0
   m_Name: Dblue4
   m_TagString: dblue
@@ -7541,6 +9148,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1317502338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317502334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1322806373
 GameObject:
   m_ObjectHideFlags: 0
@@ -7551,6 +9179,7 @@ GameObject:
   - component: {fileID: 1322806375}
   - component: {fileID: 1322806374}
   - component: {fileID: 1322806377}
+  - component: {fileID: 1322806378}
   - component: {fileID: 1322806376}
   m_Layer: 0
   m_Name: brick (53)
@@ -7666,6 +9295,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1322806378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322806373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1354155119
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,6 +9326,7 @@ GameObject:
   - component: {fileID: 1354155121}
   - component: {fileID: 1354155120}
   - component: {fileID: 1354155123}
+  - component: {fileID: 1354155124}
   - component: {fileID: 1354155122}
   m_Layer: 0
   m_Name: brick (88)
@@ -7791,6 +9442,74 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1354155124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1354155119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
+--- !u!1001 &1357088172
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022019545822804, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310697495380462, guid: 555cd945c9e91474db5f513e52c647d6,
+        type: 2}
+      propertyPath: ballr
+      value: 
+      objectReference: {fileID: 1678716508}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 555cd945c9e91474db5f513e52c647d6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1365573935
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,6 +9520,7 @@ GameObject:
   - component: {fileID: 1365573937}
   - component: {fileID: 1365573936}
   - component: {fileID: 1365573939}
+  - component: {fileID: 1365573940}
   - component: {fileID: 1365573938}
   m_Layer: 0
   m_Name: brick (169)
@@ -7916,6 +9636,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1365573940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1365573935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1378505441
 GameObject:
   m_ObjectHideFlags: 0
@@ -7926,6 +9667,7 @@ GameObject:
   - component: {fileID: 1378505443}
   - component: {fileID: 1378505442}
   - component: {fileID: 1378505444}
+  - component: {fileID: 1378505445}
   m_Layer: 0
   m_Name: brick (115)
   m_TagString: lblue
@@ -8015,6 +9757,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1378505445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1378505441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1423363831
 GameObject:
   m_ObjectHideFlags: 0
@@ -8025,6 +9788,7 @@ GameObject:
   - component: {fileID: 1423363833}
   - component: {fileID: 1423363832}
   - component: {fileID: 1423363835}
+  - component: {fileID: 1423363836}
   - component: {fileID: 1423363834}
   m_Layer: 0
   m_Name: brick (89)
@@ -8140,6 +9904,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1423363836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423363831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1429725157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8150,6 +9935,7 @@ GameObject:
   - component: {fileID: 1429725159}
   - component: {fileID: 1429725158}
   - component: {fileID: 1429725160}
+  - component: {fileID: 1429725161}
   m_Layer: 0
   m_Name: brick (105)
   m_TagString: sblue
@@ -8239,6 +10025,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1429725161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429725157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1447302272
 GameObject:
   m_ObjectHideFlags: 0
@@ -8249,6 +10056,7 @@ GameObject:
   - component: {fileID: 1447302274}
   - component: {fileID: 1447302273}
   - component: {fileID: 1447302275}
+  - component: {fileID: 1447302276}
   m_Layer: 0
   m_Name: brick (57)
   m_TagString: orange
@@ -8338,6 +10146,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1447302276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447302272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1449875905
 GameObject:
   m_ObjectHideFlags: 0
@@ -8348,6 +10177,7 @@ GameObject:
   - component: {fileID: 1449875907}
   - component: {fileID: 1449875906}
   - component: {fileID: 1449875908}
+  - component: {fileID: 1449875909}
   m_Layer: 0
   m_Name: brick (41)
   m_TagString: pink
@@ -8437,6 +10267,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1449875909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449875905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1471869448
 GameObject:
   m_ObjectHideFlags: 0
@@ -8447,6 +10298,7 @@ GameObject:
   - component: {fileID: 1471869450}
   - component: {fileID: 1471869449}
   - component: {fileID: 1471869452}
+  - component: {fileID: 1471869453}
   - component: {fileID: 1471869451}
   m_Layer: 0
   m_Name: brick (29)
@@ -8562,6 +10414,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1471869453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471869448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1482680623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8572,6 +10445,7 @@ GameObject:
   - component: {fileID: 1482680625}
   - component: {fileID: 1482680624}
   - component: {fileID: 1482680627}
+  - component: {fileID: 1482680628}
   - component: {fileID: 1482680626}
   m_Layer: 0
   m_Name: brick (139)
@@ -8687,6 +10561,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1482680628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1482680623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1502599940
 GameObject:
   m_ObjectHideFlags: 0
@@ -8697,6 +10592,7 @@ GameObject:
   - component: {fileID: 1502599942}
   - component: {fileID: 1502599941}
   - component: {fileID: 1502599943}
+  - component: {fileID: 1502599944}
   m_Layer: 0
   m_Name: brick (21)
   m_TagString: orange
@@ -8786,6 +10682,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1502599944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502599940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1516562552
 GameObject:
   m_ObjectHideFlags: 0
@@ -8796,6 +10713,7 @@ GameObject:
   - component: {fileID: 1516562554}
   - component: {fileID: 1516562553}
   - component: {fileID: 1516562555}
+  - component: {fileID: 1516562556}
   m_Layer: 0
   m_Name: brick (24)
   m_TagString: sblue
@@ -8885,6 +10803,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1516562556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1516562552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1530115125
 GameObject:
   m_ObjectHideFlags: 0
@@ -8895,6 +10834,7 @@ GameObject:
   - component: {fileID: 1530115127}
   - component: {fileID: 1530115126}
   - component: {fileID: 1530115128}
+  - component: {fileID: 1530115129}
   m_Layer: 0
   m_Name: brick (119)
   m_TagString: yellow
@@ -8984,6 +10924,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1530115129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1530115125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1536546928
 GameObject:
   m_ObjectHideFlags: 0
@@ -8994,6 +10955,7 @@ GameObject:
   - component: {fileID: 1536546930}
   - component: {fileID: 1536546929}
   - component: {fileID: 1536546931}
+  - component: {fileID: 1536546932}
   m_Layer: 0
   m_Name: brick (137)
   m_TagString: orange
@@ -9083,6 +11045,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1536546932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536546928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1570627261
 GameObject:
   m_ObjectHideFlags: 0
@@ -9093,6 +11076,7 @@ GameObject:
   - component: {fileID: 1570627263}
   - component: {fileID: 1570627262}
   - component: {fileID: 1570627265}
+  - component: {fileID: 1570627266}
   - component: {fileID: 1570627264}
   m_Layer: 0
   m_Name: brick (150)
@@ -9208,6 +11192,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1570627266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1570627261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1586612325
 GameObject:
   m_ObjectHideFlags: 0
@@ -9218,6 +11223,7 @@ GameObject:
   - component: {fileID: 1586612327}
   - component: {fileID: 1586612326}
   - component: {fileID: 1586612328}
+  - component: {fileID: 1586612329}
   m_Layer: 0
   m_Name: brick (13)
   m_TagString: orange
@@ -9307,6 +11313,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1586612329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1586612325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1598037962
 GameObject:
   m_ObjectHideFlags: 0
@@ -9317,6 +11344,7 @@ GameObject:
   - component: {fileID: 1598037964}
   - component: {fileID: 1598037963}
   - component: {fileID: 1598037965}
+  - component: {fileID: 1598037966}
   m_Layer: 0
   m_Name: brick (102)
   m_TagString: yellow
@@ -9406,6 +11434,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1598037966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598037962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1612735510
 GameObject:
   m_ObjectHideFlags: 0
@@ -9416,6 +11465,7 @@ GameObject:
   - component: {fileID: 1612735512}
   - component: {fileID: 1612735511}
   - component: {fileID: 1612735513}
+  - component: {fileID: 1612735514}
   m_Layer: 0
   m_Name: brick (118)
   m_TagString: yellow
@@ -9505,6 +11555,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1612735514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612735510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1643613993
 GameObject:
   m_ObjectHideFlags: 0
@@ -9515,6 +11586,7 @@ GameObject:
   - component: {fileID: 1643613995}
   - component: {fileID: 1643613994}
   - component: {fileID: 1643613996}
+  - component: {fileID: 1643613997}
   m_Layer: 0
   m_Name: brick (42)
   m_TagString: yellow
@@ -9604,6 +11676,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1643613997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643613993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1674242461
 GameObject:
   m_ObjectHideFlags: 0
@@ -9614,6 +11707,7 @@ GameObject:
   - component: {fileID: 1674242463}
   - component: {fileID: 1674242462}
   - component: {fileID: 1674242465}
+  - component: {fileID: 1674242466}
   - component: {fileID: 1674242464}
   m_Layer: 0
   m_Name: brick (153)
@@ -9729,6 +11823,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1674242466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674242461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1677726635
 GameObject:
   m_ObjectHideFlags: 0
@@ -9739,6 +11854,7 @@ GameObject:
   - component: {fileID: 1677726637}
   - component: {fileID: 1677726636}
   - component: {fileID: 1677726639}
+  - component: {fileID: 1677726640}
   - component: {fileID: 1677726638}
   m_Layer: 0
   m_Name: brick (59)
@@ -9854,6 +11970,79 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1677726640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677726635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
+--- !u!1001 &1678716507
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072663450441304, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114128281279410802, guid: aaece01569e6cd2469837f69d7b960ab,
+        type: 2}
+      propertyPath: ui
+      value: 
+      objectReference: {fileID: 1966531726}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aaece01569e6cd2469837f69d7b960ab, type: 2}
+  m_IsPrefabParent: 0
+--- !u!50 &1678716508 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50944032513208910, guid: aaece01569e6cd2469837f69d7b960ab,
+    type: 2}
+  m_PrefabInternal: {fileID: 1678716507}
 --- !u!1 &1688846654
 GameObject:
   m_ObjectHideFlags: 0
@@ -9864,6 +12053,7 @@ GameObject:
   - component: {fileID: 1688846656}
   - component: {fileID: 1688846655}
   - component: {fileID: 1688846657}
+  - component: {fileID: 1688846658}
   m_Layer: 0
   m_Name: Dblue
   m_TagString: dblue
@@ -9953,6 +12143,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1688846658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688846654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1689530228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9963,6 +12174,7 @@ GameObject:
   - component: {fileID: 1689530230}
   - component: {fileID: 1689530229}
   - component: {fileID: 1689530231}
+  - component: {fileID: 1689530232}
   m_Layer: 0
   m_Name: brick (11)
   m_TagString: sblue
@@ -10052,6 +12264,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1689530232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689530228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1692649366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,6 +12295,7 @@ GameObject:
   - component: {fileID: 1692649368}
   - component: {fileID: 1692649367}
   - component: {fileID: 1692649370}
+  - component: {fileID: 1692649371}
   - component: {fileID: 1692649369}
   m_Layer: 0
   m_Name: brick (4)
@@ -10177,6 +12411,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1692649371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692649366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1708547669
 GameObject:
   m_ObjectHideFlags: 0
@@ -10187,6 +12442,7 @@ GameObject:
   - component: {fileID: 1708547671}
   - component: {fileID: 1708547670}
   - component: {fileID: 1708547672}
+  - component: {fileID: 1708547673}
   m_Layer: 0
   m_Name: brick (7)
   m_TagString: sblue
@@ -10276,6 +12532,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1708547673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708547669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1720860526
 GameObject:
   m_ObjectHideFlags: 0
@@ -10286,6 +12563,7 @@ GameObject:
   - component: {fileID: 1720860528}
   - component: {fileID: 1720860527}
   - component: {fileID: 1720860529}
+  - component: {fileID: 1720860530}
   m_Layer: 0
   m_Name: pink11
   m_TagString: pink
@@ -10375,6 +12653,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1720860530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1720860526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1724612691
 GameObject:
   m_ObjectHideFlags: 0
@@ -10385,6 +12684,7 @@ GameObject:
   - component: {fileID: 1724612693}
   - component: {fileID: 1724612692}
   - component: {fileID: 1724612694}
+  - component: {fileID: 1724612695}
   m_Layer: 0
   m_Name: pink12
   m_TagString: pink
@@ -10474,6 +12774,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1724612695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1724612691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1750115933
 GameObject:
   m_ObjectHideFlags: 0
@@ -10484,6 +12805,7 @@ GameObject:
   - component: {fileID: 1750115935}
   - component: {fileID: 1750115934}
   - component: {fileID: 1750115936}
+  - component: {fileID: 1750115937}
   m_Layer: 0
   m_Name: brick (108)
   m_TagString: orange
@@ -10573,6 +12895,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1750115937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750115933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1754590195
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,6 +12926,7 @@ GameObject:
   - component: {fileID: 1754590197}
   - component: {fileID: 1754590196}
   - component: {fileID: 1754590199}
+  - component: {fileID: 1754590200}
   - component: {fileID: 1754590198}
   m_Layer: 0
   m_Name: brick (87)
@@ -10698,6 +13042,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1754590200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1754590195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1773097618
 GameObject:
   m_ObjectHideFlags: 0
@@ -10708,6 +13073,7 @@ GameObject:
   - component: {fileID: 1773097620}
   - component: {fileID: 1773097619}
   - component: {fileID: 1773097621}
+  - component: {fileID: 1773097622}
   m_Layer: 0
   m_Name: brick (145)
   m_TagString: lblue
@@ -10797,6 +13163,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1773097622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773097618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1775117296
 GameObject:
   m_ObjectHideFlags: 0
@@ -10807,6 +13194,7 @@ GameObject:
   - component: {fileID: 1775117298}
   - component: {fileID: 1775117297}
   - component: {fileID: 1775117299}
+  - component: {fileID: 1775117300}
   m_Layer: 0
   m_Name: brick (130)
   m_TagString: lblue
@@ -10896,6 +13284,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1775117300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775117296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1782652944
 GameObject:
   m_ObjectHideFlags: 0
@@ -10906,6 +13315,7 @@ GameObject:
   - component: {fileID: 1782652946}
   - component: {fileID: 1782652945}
   - component: {fileID: 1782652948}
+  - component: {fileID: 1782652949}
   - component: {fileID: 1782652947}
   m_Layer: 0
   m_Name: brick (124)
@@ -11021,6 +13431,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1782652949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782652944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1803856596
 GameObject:
   m_ObjectHideFlags: 0
@@ -11031,6 +13462,7 @@ GameObject:
   - component: {fileID: 1803856598}
   - component: {fileID: 1803856597}
   - component: {fileID: 1803856600}
+  - component: {fileID: 1803856601}
   - component: {fileID: 1803856599}
   m_Layer: 0
   m_Name: brick (140)
@@ -11146,6 +13578,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1803856601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1803856596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1815481824
 GameObject:
   m_ObjectHideFlags: 0
@@ -11156,6 +13609,7 @@ GameObject:
   - component: {fileID: 1815481826}
   - component: {fileID: 1815481825}
   - component: {fileID: 1815481827}
+  - component: {fileID: 1815481828}
   m_Layer: 0
   m_Name: brick (43)
   m_TagString: orange
@@ -11245,6 +13699,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1815481828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815481824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1822259380
 GameObject:
   m_ObjectHideFlags: 0
@@ -11255,6 +13730,7 @@ GameObject:
   - component: {fileID: 1822259382}
   - component: {fileID: 1822259381}
   - component: {fileID: 1822259383}
+  - component: {fileID: 1822259384}
   m_Layer: 0
   m_Name: brick (103)
   m_TagString: sblue
@@ -11344,6 +13820,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1822259384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1822259380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1854908490
 GameObject:
   m_ObjectHideFlags: 0
@@ -11354,6 +13851,7 @@ GameObject:
   - component: {fileID: 1854908492}
   - component: {fileID: 1854908491}
   - component: {fileID: 1854908493}
+  - component: {fileID: 1854908494}
   m_Layer: 0
   m_Name: Dblue3
   m_TagString: dblue
@@ -11443,6 +13941,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1854908494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854908490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1900087747
 GameObject:
   m_ObjectHideFlags: 0
@@ -11453,6 +13972,7 @@ GameObject:
   - component: {fileID: 1900087749}
   - component: {fileID: 1900087748}
   - component: {fileID: 1900087750}
+  - component: {fileID: 1900087751}
   m_Layer: 0
   m_Name: brick (55)
   m_TagString: orange
@@ -11542,6 +14062,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1900087751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900087747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1921539090
 GameObject:
   m_ObjectHideFlags: 0
@@ -11552,6 +14093,7 @@ GameObject:
   - component: {fileID: 1921539092}
   - component: {fileID: 1921539091}
   - component: {fileID: 1921539094}
+  - component: {fileID: 1921539095}
   - component: {fileID: 1921539093}
   m_Layer: 0
   m_Name: brick (125)
@@ -11667,6 +14209,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1921539095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1921539090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1933153108
 GameObject:
   m_ObjectHideFlags: 0
@@ -11677,6 +14240,7 @@ GameObject:
   - component: {fileID: 1933153110}
   - component: {fileID: 1933153109}
   - component: {fileID: 1933153112}
+  - component: {fileID: 1933153113}
   - component: {fileID: 1933153111}
   m_Layer: 0
   m_Name: brick (74)
@@ -11792,6 +14356,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1933153113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933153108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1933924748
 GameObject:
   m_ObjectHideFlags: 0
@@ -11814,8 +14399,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1933924748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 1692649368}
   - {fileID: 861898418}
@@ -11871,6 +14456,7 @@ GameObject:
   - component: {fileID: 1960086130}
   - component: {fileID: 1960086129}
   - component: {fileID: 1960086131}
+  - component: {fileID: 1960086132}
   m_Layer: 0
   m_Name: pink11
   m_TagString: pink
@@ -11960,6 +14546,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1960086132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960086128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &1963105523
 GameObject:
   m_ObjectHideFlags: 0
@@ -11970,6 +14577,7 @@ GameObject:
   - component: {fileID: 1963105525}
   - component: {fileID: 1963105524}
   - component: {fileID: 1963105526}
+  - component: {fileID: 1963105527}
   m_Layer: 0
   m_Name: brick (38)
   m_TagString: yellow
@@ -12059,6 +14667,85 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1963105527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963105523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
+--- !u!1001 &1966531725
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 117.86763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 256.91736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 4.15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580187089748200, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114549299996585834, guid: 9af9b900109f3124abd15fc4c7bae898,
+        type: 2}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 847534255}
+    - target: {fileID: 114549299996585834, guid: 9af9b900109f3124abd15fc4c7bae898,
+        type: 2}
+      propertyPath: lifeText
+      value: 
+      objectReference: {fileID: 847534254}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9af9b900109f3124abd15fc4c7bae898, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1966531726 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114549299996585834, guid: 9af9b900109f3124abd15fc4c7bae898,
+    type: 2}
+  m_PrefabInternal: {fileID: 1966531725}
+  m_Script: {fileID: 11500000, guid: cd9ca8f6ec8773946b517190e42e93d0, type: 3}
 --- !u!1 &1997107534
 GameObject:
   m_ObjectHideFlags: 0
@@ -12069,6 +14756,7 @@ GameObject:
   - component: {fileID: 1997107536}
   - component: {fileID: 1997107535}
   - component: {fileID: 1997107537}
+  - component: {fileID: 1997107538}
   m_Layer: 0
   m_Name: brick (80)
   m_TagString: lblue
@@ -12158,6 +14846,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1997107538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997107534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2010424160
 GameObject:
   m_ObjectHideFlags: 0
@@ -12168,6 +14877,7 @@ GameObject:
   - component: {fileID: 2010424162}
   - component: {fileID: 2010424161}
   - component: {fileID: 2010424163}
+  - component: {fileID: 2010424164}
   m_Layer: 0
   m_Name: pink10
   m_TagString: pink
@@ -12257,6 +14967,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2010424164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2010424160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 0
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2021694561
 GameObject:
   m_ObjectHideFlags: 0
@@ -12267,6 +14998,7 @@ GameObject:
   - component: {fileID: 2021694563}
   - component: {fileID: 2021694562}
   - component: {fileID: 2021694565}
+  - component: {fileID: 2021694566}
   - component: {fileID: 2021694564}
   m_Layer: 0
   m_Name: brick (152)
@@ -12382,6 +15114,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2021694566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2021694561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2041276099
 GameObject:
   m_ObjectHideFlags: 0
@@ -12392,6 +15145,7 @@ GameObject:
   - component: {fileID: 2041276101}
   - component: {fileID: 2041276100}
   - component: {fileID: 2041276102}
+  - component: {fileID: 2041276103}
   m_Layer: 0
   m_Name: brick (37)
   m_TagString: orange
@@ -12481,6 +15235,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2041276103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041276099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 2
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2062135044
 GameObject:
   m_ObjectHideFlags: 0
@@ -12503,8 +15278,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062135044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 1708547671}
   - {fileID: 542907047}
@@ -12532,6 +15307,7 @@ GameObject:
   - component: {fileID: 2073258165}
   - component: {fileID: 2073258164}
   - component: {fileID: 2073258166}
+  - component: {fileID: 2073258167}
   m_Layer: 0
   m_Name: brick (9)
   m_TagString: sblue
@@ -12621,6 +15397,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2073258167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073258163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2080434912
 GameObject:
   m_ObjectHideFlags: 0
@@ -12631,6 +15428,7 @@ GameObject:
   - component: {fileID: 2080434914}
   - component: {fileID: 2080434913}
   - component: {fileID: 2080434916}
+  - component: {fileID: 2080434917}
   - component: {fileID: 2080434915}
   m_Layer: 0
   m_Name: brick (15)
@@ -12746,6 +15544,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2080434917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080434912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2103595325
 GameObject:
   m_ObjectHideFlags: 0
@@ -12756,6 +15575,7 @@ GameObject:
   - component: {fileID: 2103595327}
   - component: {fileID: 2103595326}
   - component: {fileID: 2103595328}
+  - component: {fileID: 2103595329}
   m_Layer: 0
   m_Name: brick (154)
   m_TagString: red
@@ -12845,6 +15665,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2103595329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103595325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2106187001
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,6 +15696,7 @@ GameObject:
   - component: {fileID: 2106187003}
   - component: {fileID: 2106187002}
   - component: {fileID: 2106187004}
+  - component: {fileID: 2106187005}
   m_Layer: 0
   m_Name: brick (106)
   m_TagString: sblue
@@ -12944,6 +15786,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2106187005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2106187001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 3
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2136304611
 GameObject:
   m_ObjectHideFlags: 0
@@ -12954,6 +15817,7 @@ GameObject:
   - component: {fileID: 2136304613}
   - component: {fileID: 2136304612}
   - component: {fileID: 2136304615}
+  - component: {fileID: 2136304616}
   - component: {fileID: 2136304614}
   m_Layer: 0
   m_Name: brick (70)
@@ -13069,6 +15933,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2136304616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2136304611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d925091199ba386449aa7a3d0a80551e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomobj: {fileID: 4202097200914272, guid: 0d5878edc7c64764c9119940ff1f9f5f, type: 2}
+  slide_expand: {fileID: 4426347464641438, guid: 4e5c129f99213574bb5caf5a7d4b0c66,
+    type: 2}
+  slide_shrink: {fileID: 4665321804412146, guid: d9a139b03db419c48a3f66134ed18fff,
+    type: 2}
+  fastball: {fileID: 400000, guid: d13d6da79e5ad4f279457848e9b72b7d, type: 2}
+  slowball: {fileID: 400000, guid: 253723546e91c4077a3106f87d269d1b, type: 2}
+  life: 1
+  whichpowerup: 0
+  ui: {fileID: 1966531726}
 --- !u!1 &2145777668
 GameObject:
   m_ObjectHideFlags: 0
@@ -13091,8 +15976,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2145777668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.733909, y: 33.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.58483, y: 12.1, z: 0}
+  m_LocalScale: {x: 0.79687434, y: 0.7874989, z: 1}
   m_Children:
   - {fileID: 856689067}
   - {fileID: 161028642}

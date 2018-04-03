@@ -11,6 +11,7 @@ public class DestroyBrick : MonoBehaviour {
     public Transform slowball;
     public int life=1;
     public int whichpowerup;
+    public UIManager ui;
 	// Use this for initialization
 	void Start () {
 		
@@ -41,6 +42,35 @@ public class DestroyBrick : MonoBehaviour {
         }
         if (life==0)
         {
+            //SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+            if(gameObject.CompareTag("pink"))
+            {
+                ui.AddScore(10);
+            }
+            if (gameObject.CompareTag("dblue"))
+            {
+                ui.AddScore(20);
+            }
+            if (gameObject.CompareTag("yellow"))
+            {
+                ui.AddScore(20);
+            }
+            if (gameObject.CompareTag("red"))
+            {
+                ui.AddScore(20);
+            }
+            if (gameObject.CompareTag("lblue"))
+            {
+                ui.AddScore(10);
+            }
+            if (gameObject.CompareTag("orange"))
+            {
+                ui.AddScore(30);
+            }
+            if (gameObject.CompareTag("sblue"))
+            {
+                ui.AddScore(40);
+            }
             Destroy(gameObject);
             Instantiate(boomobj, transform.position, boomobj.rotation);
         }
