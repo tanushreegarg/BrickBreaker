@@ -14,19 +14,25 @@ public class PaddleControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetKey(moveL))
+        if (Application.platform == RuntimePlatform.Android)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-8, 0);
+            transform.Translate(Input.acceleration.x, 0, 0);
         }
-        if (Input.GetKey(moveR))
+        else
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(8, 0);
-        }
-        if( (!Input.GetKey(moveL)) && (!Input.GetKey(moveR)))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        }
-        
+            if (Input.GetKey(moveL))
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(-8, 0);
+            }
+            if (Input.GetKey(moveR))
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(8, 0);
+            }
+            if ((!Input.GetKey(moveL)) && (!Input.GetKey(moveR)))
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            }
+        }    
     }
 
     void OnTriggerEnter2D(Collider2D other)

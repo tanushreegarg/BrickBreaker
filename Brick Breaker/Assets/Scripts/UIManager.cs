@@ -8,17 +8,24 @@ public class UIManager : MonoBehaviour {
 
     public int score;
     public int playerlife = 3;
+    public Canvas level;
     public Text scoreText;
     public Text lifeText;
-	// Use this for initialization
+    
+    public Button nextLevel;
+
+    public Canvas PauseMenu;
+
+    	// Use this for initialization
 	void Start () {
-		
-	}
+        scoreText.text = "Score: " + score;
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        lifeText.text = "Lives: " + playerlife;	
+        lifeText.text = "Lives: " + playerlife;
+        
 	}
     public void AddScore(int value)
     {
@@ -33,4 +40,11 @@ public class UIManager : MonoBehaviour {
             SceneManager.LoadScene("GameOver");
         }
     }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        level.gameObject.SetActive(false);
+        PauseMenu.gameObject.SetActive(true);
+    }
+
 }

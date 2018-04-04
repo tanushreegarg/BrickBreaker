@@ -6,10 +6,11 @@ public class BallControl : MonoBehaviour {
 
     public float speed=5f;
     public UIManager ui;
+    public bool timer;
 	// Use this for initialization
 	void Start ()
     {
-        
+        timer = false;
 	}	
 	// Update is called once per frame
 	void Update ()
@@ -17,6 +18,7 @@ public class BallControl : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.Space))
         {            
             GetComponent<Rigidbody2D>().AddForce(new Vector2(speed, speed));
+            timer = true;
         }
     }
     void OnCollisionEnter2D(Collision2D other)
@@ -40,3 +42,4 @@ public class BallControl : MonoBehaviour {
         }
     }
 }
+
