@@ -32,8 +32,19 @@ public class PaddleControl : MonoBehaviour {
             {
                 GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             }
-        }    
+        } 
+        
+        if(transform.position.x > 12.5)
+        {
+            transform.position = new Vector2(12.5f,transform.position.y);
+        }
+        if (transform.position.x < -12.5)
+        {
+            transform.position = new Vector2(-12.5f, transform.position.y);
+        }
     }
+
+   
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -47,11 +58,11 @@ public class PaddleControl : MonoBehaviour {
         }
         if(other.gameObject.CompareTag("fastball"))
         {
-            ballr.AddForce(new Vector2(10,10));    
+            ballr.velocity = new Vector2(ballr.velocity.x * 2, ballr.velocity.y * 2);    
         }
         if (other.gameObject.CompareTag("slowball"))
         {
-            ballr.AddForce(new Vector2(3, 3));
+            ballr.velocity = new Vector2(ballr.velocity.x * 0.5f, ballr.velocity.y * 0.5f);
         }
     }
 

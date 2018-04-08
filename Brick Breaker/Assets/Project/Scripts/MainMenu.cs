@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-
+// Music: https://www.bensound.com
 public class MainMenu : MonoBehaviour {
 
     [Header("MainMenu")]
@@ -13,11 +13,12 @@ public class MainMenu : MonoBehaviour {
     public Canvas Setting;
 
     [Header("HighScore")]
-    public Text[] player;
-    public Text[] score;
+    public Text score;
 
     [Header("Settings")]
-    public AudioMixer MusicAudio;
+    public AudioSource MusicAudio;
+    public Slider Music;
+    public Slider Effects;
 
 
     public void Start()
@@ -26,6 +27,8 @@ public class MainMenu : MonoBehaviour {
         Mainmenu.gameObject.SetActive(true);
         Highscore.gameObject.SetActive(false);
         Setting.gameObject.SetActive(false);
+        PlayerPrefs.SetInt("Score", 0);
+        PlayerPrefs.SetInt("level", 2);
     }
 
     public void Update()
@@ -58,22 +61,12 @@ public class MainMenu : MonoBehaviour {
     //Functions For Main Menu Canvos Buttons
     public void StartGame()
     {
+       // DontDestroyOnLoad(MusicAudio);
         SceneManager.LoadScene("level1");
     }
     public void HighScore()
     {
-        string tag;
-
-        for (int i = 1; i <= 5; ++i)
-        {
-            tag = "Player0" + i.ToString();
-            player[i - 1].text += PlayerPrefs.GetString(tag, "");
-            tag = "score0" + i.ToString();
-            score[i - 1].text = PlayerPrefs.GetString(tag, "000");
-            if (PlayerPrefs.GetString(tag) == "")
-                break;
-        }
-
+        score.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
         Mainmenu.gameObject.SetActive(false);
         Highscore.gameObject.SetActive(true);
     }
@@ -81,6 +74,9 @@ public class MainMenu : MonoBehaviour {
     {
         Mainmenu.gameObject.SetActive(false);
         Setting.gameObject.SetActive(true);
+        Music.value = PlayerPrefs.GetFloat("MusicVolume", 1);
+        Effects.value = PlayerPrefs.GetFloat("EffectVolume", 1);
+
     }
     public void Exit()
     {
@@ -92,23 +88,23 @@ public class MainMenu : MonoBehaviour {
     //Functions For HighScore Canvos Buttons
     public void ResetScore()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("HighScore");
         for (int i = 1; i <= 5; ++i)
         {
-            player[i - 1].text = i.ToString() + ". ";
-            score[i - 1].text = "000";
+           score.text = "000";
         }
     }
 
     //Functions For Settings Canvos Buttons
-    public void MusicSlider(float volume)
+    public void MusicSlider(float VolumeM)
     {
-        MusicAudio.SetFloat("Music Volume", volume);
+        PlayerPrefs.SetFloat("MusicVolume", VolumeM);
+        MusicAudio.volume = VolumeM;
     }
 
-    public void EffectsSlider(float volume)
+    public void EffectsSlider(float VolumeE)
     {
-        Debug.Log("Effects Slider moved");
+        PlayerPrefs.SetFloat("EffectsVolume", VolumeE);
     }
 
 }

@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour {
     public Text scoreText;
     public Text lifeText;
     
-    public Button nextLevel;
+    //public Button nextLevel;
 
     public Canvas PauseMenu;
 
@@ -35,10 +35,11 @@ public class UIManager : MonoBehaviour {
     public void DeductLife(int val)
     {        
         playerlife -= val;
-        if(playerlife == 0)
+        /*if(playerlife == 0)
         {
+
             SceneManager.LoadScene("GameOver");
-        }
+        }*/
     }
     public void Pause()
     {

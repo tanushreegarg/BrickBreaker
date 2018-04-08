@@ -16,6 +16,8 @@ TagManager:
   - slowball
   - fastball
   - bottomborder
+  - Brick
+  - Paddle
   layers:
   - Default
   - TransparentFX

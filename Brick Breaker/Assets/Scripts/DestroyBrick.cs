@@ -23,23 +23,8 @@ public class DestroyBrick : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        whichpowerup = Random.Range(1, 10);
-        if(whichpowerup==1)
-        {
-            Instantiate(slide_expand,transform.position,slide_expand.rotation);
-        }
-        if(whichpowerup==2)
-        {
-            Instantiate(slide_shrink,transform.position,slide_shrink.rotation);
-        }
-        if(whichpowerup==3)
-        {
-            Instantiate(fastball, transform.position, fastball.rotation);
-        }
-        if (whichpowerup == 3)
-        {
-            Instantiate(slowball, transform.position, slowball.rotation);
-        }
+        whichpowerup = Random.Range(1, 100);
+        
         if (life==0)
         {
             //SpriteRenderer renderer = GetComponent<SpriteRenderer>();
@@ -73,6 +58,22 @@ public class DestroyBrick : MonoBehaviour {
             }
             Destroy(gameObject);
             Instantiate(boomobj, transform.position, boomobj.rotation);
+            if (whichpowerup < 5)
+            {
+                Instantiate(slide_expand, transform.position, slide_expand.rotation);
+            }
+            if (whichpowerup > 10 && whichpowerup < 15)
+            {
+                Instantiate(slide_shrink, transform.position, slide_shrink.rotation);
+            }
+            if (whichpowerup > 20 && whichpowerup < 25)
+            {
+                Instantiate(fastball, transform.position, fastball.rotation);
+            }
+            if (whichpowerup > 30 && whichpowerup < 35)
+            {
+                Instantiate(slowball, transform.position, slowball.rotation);
+            }
         }
         life--;
     }

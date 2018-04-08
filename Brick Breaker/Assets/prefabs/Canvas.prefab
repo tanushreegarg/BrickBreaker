@@ -319,7 +319,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time's Up!!!
+  m_Text: 'Time''s Up!!!
+
+    Lives Over!!!'
 --- !u!114 &114875079139339160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -555,7 +557,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 200}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224738323560882258
 RectTransform:
